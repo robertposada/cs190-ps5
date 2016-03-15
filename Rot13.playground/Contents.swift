@@ -80,7 +80,7 @@ class Rot13: CryptoSystem {
     
 
  }
-
+// Credit for the following function goes to Sam Allen. All rights are reseerved by him. His function can be found at: http://www.dotnetperls.com/rot13-swift 
 func rot13(value: String) -> String {
     // Empty character array.
     var result = [Character]()
